@@ -1,0 +1,363 @@
+
+.rounded-lg {
+    border-radius: 1rem !important;
+  }
+  
+  .text-small {
+    font-size: 0.9rem !important;
+  }
+  
+  .custom-separator {
+    width: 5rem;
+    height: 6px;
+    border-radius: 1rem;
+  }
+  
+  .text-uppercase {
+    letter-spacing: 0.2em;
+  }
+  
+  
+  body {
+    background: transparent;
+    background-image: url(./img/abstract-luxury-gradient-blue-background-smooth-dark-blue-with-black-vignette-studio-banner.jpg);
+    color: #0ec9ae;
+    min-height: 100vh;
+}
+p{
+    font-size: 20px;
+    color: #0ec9ac;
+    font-weight: bold;
+    margin-top: 20px;
+}
+*{
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+  }
+
+  nav{
+    background: #021855;
+    height: 70px;
+    width: 100%;
+    position: fixed ;
+    z-index: 1000;
+  }
+  label.logo{
+    padding-left:150px;
+    margin-right: -150px;
+
+  }
+  nav ul{
+    display: flex;
+    justify-content:space-evenly;
+    float: right;
+    padding-right: 150px;
+  }
+  nav ul li{
+    font-family: 'Raleway', sans-serif;
+    display: inline-block;
+    line-height: 70px;
+    margin: 0 2px;
+  }
+  nav ul li a{
+    color: white;
+    font-size: 15px;
+    font-weight: bold;
+    padding: 8px 8px;
+    border-radius: 3px;
+    text-transform: uppercase;
+  }
+  a.active,a:hover{
+    background: #1b9bff;
+    transition: .5s;
+  }
+  .checkbtn{
+    font-size: 30px;
+    color: white;
+    float: right;
+    line-height: 70px;
+    margin-right: 40px;
+    cursor: pointer;
+    display: none;
+  }
+  #check{
+    display: none;
+  }
+
+
+
+  @import url('https://fonts.googleapis.com/css?family=Rubik&display=swap');
+
+  
+  .box{
+     width: 650px;
+     margin: 35px auto;
+     background: transparent;
+     /* border: 2px solid #0ec9ac; */
+     border-radius: 10px;
+     /* box-shadow: 1px 2px 4px rgba(0,0,0,.3); */
+  }
+  
+  .heading_faq{
+     color: #0ec9ac;
+     margin-top: 55px;
+     border-radius: 7px 7px 0px 0px;
+     padding-top: 100px;
+     text-align: center;
+     font-size: 30px;
+  }
+  .heading_faq2{
+    color: white;
+    text-align: center;
+    padding-bottom: 20px;
+}
+ 
+
+  .faqs{
+     padding: 0px 20px 20px 0;
+  }
+  
+  ::-webkit-details-marker{
+     float: right;
+     margin-top: 3px;
+     color: white;
+  }
+  
+  details{
+     background: transparent;
+     padding: 10px 20px;
+     border: 1px solid white;
+     color: #0ec9ac;
+     font-weight: bolder;
+     border-radius: 4px;
+     margin-top: 20px;
+     font-family: 'Raleway', sans-serif;
+     font-size: 14px;
+     letter-spacing: 1px;
+     cursor:pointer;
+  }
+  
+  details summary{
+     outline:none;
+     margin-top: 4px;
+     /* font-size: 1px; */
+  }
+  details p{
+    font-size: 15px;
+    margin-top: 15px;
+    color: white;
+  }
+  .left_faq{
+    padding-left: 90px;
+    display: inline-block;
+  
+  }
+  .right_faq{
+    padding-right: 90px;
+    display: inline-block;
+  }
+  .faq3{
+
+    background-image: url('/img/abstract-luxury-gradient-blue-background-smooth-dark-blue-with-black-vignette-studio-banner.jpg');
+  }
+
+  .trial_para
+  {
+    text-align: center;
+    margin: 20px;
+}
+.trial {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 60px;
+    margin-bottom: -70px;
+    padding: 200px 20px;
+    background-image: url('./img/trial_img.jpg');
+    background-position: center;
+    position: relative;
+    opacity: 0.8;
+}
+#free_trial_btn{
+    background: #0ec9ac;
+    margin-top: 50px;
+    padding:1%;
+    border-radius: 10px;
+    text-transform: uppercase;
+    font-size: 20px;
+    color: white;
+    font-weight: bold;
+    border: #0ec9ac 2px solid;
+    
+}
+/* Footer
+---------------------------------*/
+
+.footer_wrapper {
+  background: #232323;
+}
+
+.footer_bottom {
+  /* border-top: 1px solid #3C3A3A; */
+  padding: 10px;
+  text-align: center;
+
+}
+
+.footer_span {
+
+  font-size: 14px;
+  color: #cccccc;
+}
+
+.footer_span:hover,.footer_bottom a:hover {
+  color: #0ec9ac;
+  transition: 1s;
+}
+
+@media (max-width: 952px){
+  label.logo{
+    font-size: 30px;
+    padding-left: 50px;
+  }
+  nav ul li a{
+    font-size: 16px;
+  }
+}
+@media (max-width: 930px){
+  .checkbtn{
+    display: block;
+  }
+  ul{
+    position: relative;
+    text-align: center;
+    margin: 0 20px;
+
+  }
+   nav ul{
+    position:relative;
+    width: 19%;
+    height: 100vh;
+    background: #2c3e50;
+    left: -100%;
+    text-align: center;
+    transition: all .5s;
+    display: inline-block;
+    margin: 10px 10px;
+    line-height: 30px;
+  }  
+  nav ul li{
+    position:relative;
+    text-align: center;
+    transition: all .5s;
+  }
+  nav ul li a{
+    font-size: 20px;
+  }
+  a:hover,a.active{
+    background: none;
+    color: #0082e6;
+  }
+  #check:checked ~ ul{
+    left: 00;
+  }
+}
+@media(max-width:1380px){
+  @media(min-width:858px){
+    @media(max-width:934px){
+
+    p{
+      font-size: 20px;
+      color: #0ec9ac;
+      font-weight: bold;
+      margin-top: 200px;
+    }
+  }
+  @media (max-width:1050px) {
+    nav ul{
+    padding-right:20px;
+    }
+  }
+  label.logo{
+    padding: 0 10px;
+  }
+
+
+  }
+}
+@media (max-widht:825px) {
+  .empty_para{
+    padding: 0 0 0 0;
+    margin: 0 0 -50px 0;
+  }
+
+}
+@media(max-width:825px){
+  .footer_bottom{
+    padding: 20px 0 20px 0;
+  }
+  .left_faq{
+    padding: 0;
+    display: flex;
+   
+
+  }
+  .right_faq{
+    padding: 0;
+    display: flex;
+    
+
+  }
+}
+@media (min-width:830px) {
+  @media (max-width:1480px) {
+    .left_faq{
+      padding: 0;
+      display: flex;
+      float:none;
+  
+    }
+    .right_faq{
+      padding: 0;
+      display: flex;
+      float:none;
+  
+    }
+    .footer_bottom{
+      padding: 20px 0 20px 0;
+    }
+    
+  }
+
+  
+}
+@media (max-width:1480) {
+  .faqs{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .right_faq{
+    float: top;
+  }
+  .left_faq{
+    float: bottom;
+  }
+}
+@media(max-width:991px){
+  @media(min-width:400px){
+    ul{
+      display: flex;
+      flex-direction: column;
+      position: relative;
+      width: 59%;
+      margin-left:100px;
+      transition: all 1s;
+  
+    }
+  }
+}
